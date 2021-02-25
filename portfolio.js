@@ -10,7 +10,7 @@ function sprint3(){
     for (i = 2; i <= 4; i++){
         chapter = "exercise" + i;
         sePrint3 = "SE-Sprint3-Exercises-Chapter-" + i;
-        document.getElementById(chapter).href = myGit(seSprint3);
+        document.getElementById(chapter).innerHTML = myGit(seSprint3);
         document.getElementById(chapter).title = chapter;
     }
 }
