@@ -4,6 +4,7 @@ function myGit(repo){
     return myRepo;
 }
 
+/*
 function sprint3(){
     var chapter = '';
     var seSprint3 = '';
@@ -14,3 +15,4 @@ function sprint3(){
         document.getElementById(chapter).title = chapter;
     }
 }
+*/
