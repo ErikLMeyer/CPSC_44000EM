@@ -1,0 +1,18 @@
+{
+  "name": "cpsc_44000em",
+  "version": "1.0.0",
+  "description": "Refactoring my portfolio to run in Node.js and Express",
+  "main": "portfolio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErikLMeyer/CPSC_44000EM.git"
+  },
+  "author": "Erik L. Meyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ErikLMeyer/CPSC_44000EM/issues"
+  }
+}
