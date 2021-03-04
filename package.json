@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ErikLMeyer/CPSC_44000EM.git"
+    "url": "https://github.com/ErikLMeyer/CPSC_44000EM/tree/Node-conversion"
   },
   "author": "Erik L. Meyer",
   "license": "MIT",
