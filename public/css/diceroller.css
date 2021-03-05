@@ -1,0 +1,7 @@
+/* Aligns text in text boxes to the right */
+input{ text-align: right; }
+
+/* Centers everything on the page*/
+* {
+    text-align: center;
+}
