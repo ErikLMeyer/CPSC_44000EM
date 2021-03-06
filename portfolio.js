@@ -23,6 +23,12 @@ app.get('/', (req, res) => {
 
 app.get('/about', (req, res) => res.render('about'));
 
+app.get('/dice', (req, res) => res.render('dice'));
+
+app.get('/syllabus', (req, res) => res.render('syllabus'));
+
+app.get('/regex', (req, res) => res.render('regex'));
+
 // Custom 404 page
 app.use((req, res) => {
     res.status(404);
