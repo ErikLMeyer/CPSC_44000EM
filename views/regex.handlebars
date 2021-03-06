@@ -1,0 +1,26 @@
+<head>
+    <style>
+        * { text-align: center; }
+    </style>
+    <title>RegExp Tester</title>
+</head>
+<body>
+    <h1>RegExp Tester!</h1>
+    <label for="uinput">Your string:</label><br>
+    <input type="text" id="uinput" name="uinput"><br>
+    <label for="searchInput">Expression to search for:</label><br>
+    <input type="text" id="searchInput" name="searchInput"><br><br>
+    <button type="button" onclick="expTest()" autofocus>Test for a match</button><br><br>
+    <label for="out">The expression is in your string:</label><br>
+    <input type="text" id="out" name="out" disabled>
+
+    <script>
+        function expTest() {
+            var str = document.getElementById("uinput").value;
+            var sear = document.getElementById("searchInput").value;
+            var reg = new RegExp(sear, "i");
+            document.getElementById("out").value = reg.test(str);
+        }
+    </script>
+
+</body>
